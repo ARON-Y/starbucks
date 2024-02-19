@@ -1,0 +1,56 @@
+.visual {
+    margin-top: 120px;
+    background-image: url(../images/visual_bg.jpg);
+    background-position: center;
+    .inner {
+        height: 646px;
+        .title {
+            position: absolute;
+            top: 88px;
+            left: -10px;
+            .btn {
+                position: absolute;
+                top: 259px;
+                left: 173px;
+            }
+        }
+        .fade-in {
+            opacity: 0;
+            .cup1 {
+                &.image {
+                    position: absolute;
+                    top: 65px;
+                    right: -40px;
+                }
+                &.text {
+                    position: absolute;
+                    top: 30px;
+                    right: 175px;
+                }
+            }
+        }
+        .fade-in {
+            opacity: 0;
+            .cup2 {
+                &.image {
+                    position: absolute;
+                    bottom: 0;
+                    right: 161px;
+                }
+                &.text {
+                    position: absolute;
+                    top: 321px;
+                    right: 416px;
+                }
+            }
+        }
+        .fade-in {
+            opacity: 0;
+            .spoon {
+                position: absolute;
+                bottom: 0;
+                left: 275px;
+            }
+        }
+    }
+}

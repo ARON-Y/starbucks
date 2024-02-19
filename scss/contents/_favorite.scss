@@ -1,0 +1,26 @@
+.pick-your-favorite{
+  background-image: url("../images/favorite_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; //요소가 스크롤 될 때 같이 스크롤 되지 않고 고정된다.
+  background-size: cover;
+
+  .inner{
+    padding: 110px 0;
+
+    .text-group{
+      margin-left: 100px;
+      width: 362px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      .title{
+        margin-bottom: 40px;
+      }
+      .description{
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
